@@ -58,7 +58,7 @@
                 console.log(weatherDescriptionNumber);
  
                 document.getElementById("country-name").innerText=CountryName;
-                document.getElementById("temp").innerText=countryTemp;
+                document.getElementById("temp").innerText=parseInt(countryTemp-273.15) ;
                 document.getElementById("lead").innerText=weatherDescriptionNumber;
                 
                 
@@ -66,7 +66,7 @@
 
         })
        
-        
+
     </script>
 </body>
 
