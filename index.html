@@ -29,7 +29,7 @@
             </div>
         </form>
         <div class="weather-status text-white text-center">
-            <img src="http://openweathermap.org/img/wn/02d@2x.png" alt="">
+            <img src="https://openweathermap.org/img/wn/02d@2x.png" alt="">
             <h1 id="country-name">Dhaka</h1>
             <h3><span id="temp">38.06</span>&deg;C</h3>
             <h1 id="lead">Clouds</h1>
@@ -43,7 +43,7 @@
              console.log(weatherLocation);
             
 
-            fetch('http://api.openweathermap.org/data/2.5/weather?q='+weatherLocation.value+'&appid=91afa9543da1646d1c1468edda96bceb')
+            fetch('https://api.openweathermap.org/data/2.5/weather?q='+weatherLocation.value+'&appid=91afa9543da1646d1c1468edda96bceb')
              .then(res=> res.json())
              //.then(data=>console.log(data))
             .then(data=>{
