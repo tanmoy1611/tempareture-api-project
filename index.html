@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <style>
         body {
             background: url(images/bg-image.jpg) no-repeat;
@@ -29,7 +29,7 @@
             </div>
         </form>
         <div class="weather-status text-white text-center">
-            <img src="https://openweathermap.org/img/wn/02d@2x.png" alt="">
+            <img src="http://openweathermap.org/img/wn/02d@2x.png" alt="">
             <h1 id="country-name">Dhaka</h1>
             <h3><span id="temp">38.06</span>&deg;C</h3>
             <h1 id="lead">Clouds</h1>
@@ -52,7 +52,7 @@
                 console.log(CountryName);
                 const countryTemp=data['main'].temp;
                 
-                
+
                 console.log(countryTemp);
                 const WeatherDescription=data['weather'];
                 const weatherDescriptionNumber=WeatherDescription[0].description;
